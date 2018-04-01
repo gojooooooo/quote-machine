@@ -1,0 +1,18 @@
+html, body {
+  height: 100%; }
+
+main {
+  height: 100%;
+  background: #556c5c;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+section {
+  height: 50%;
+  width: 50%;
+  background: #aad8b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
