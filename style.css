@@ -3,7 +3,7 @@ html, body {
 
 main {
   height: 100%;
-  background: #556c5c;
+  background-color: #556c5c;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -11,7 +11,7 @@ main {
 section {
   height: 50%;
   width: 50%;
-  background: #aad8b8;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
