@@ -20,3 +20,20 @@ section{
     align-items: center;
     flex-direction: column;
 }
+.buttons{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    a{
+        margin: 0 15px;
+        display: inline-block;
+        padding: 5px 15px;
+    }
+}
+button{
+    border: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+    color: #fff;
+}

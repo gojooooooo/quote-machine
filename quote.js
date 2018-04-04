@@ -1,6 +1,6 @@
 
 $(function(){
-$("#button").on("click", function(){
+$(".button").on("click", function(){
     var random;
     $(".quote_view").html("<b>quote machine</b>");
     $.ajax({

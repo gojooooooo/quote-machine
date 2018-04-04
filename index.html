@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="  crossorigin="anonymous"></script>
     <script type="text/javascript" src="quote.js"></script>
@@ -13,7 +14,16 @@
         <section class="">
                 <div class="quote_view"></div>
                 <div class="text"></div>
-                <button id="button" class="quote_on">ON</button>
+                
+             <div class="buttons">
+                 <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                     <i class="fa fa-twitter"></i>
+                 </a>
+     <a class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
+      <i class="fa fa-tumblr"></i>
+    </a>
+            <button class="button" class="quote_on">new quote</button>
+            </div>
         </section>
     </main>
 </body>
