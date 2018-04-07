@@ -26,6 +26,7 @@ $(".button").on("click", function(){
       $('.quote_view').text(data[random].name.id);
       }
     );
+          var currenttext = data[random].name.text;
     var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"];
     var color;
     color = Math.floor(Math.random() * colors.length);
@@ -36,12 +37,14 @@ $(".button").on("click", function(){
       $(".button").animate({
         backgroundColor: colors[color]
       });
+        $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + currenttext + '" ' + name));
 
-      //  alert(data.name);
     },
     error: function(xhr, textStatus, errorThrown){
       // error
     }
   });
 });
+
+
 });
